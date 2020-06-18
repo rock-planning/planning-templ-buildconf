@@ -1,0 +1,3 @@
+cmake_package 'knowledge_reasoning/moreorg' do |pkg|
+    pkg.env_add_path "OWL_ONTOLOGIES_PATH", File.join(pkg.prefix, "share","ontologies")
+end

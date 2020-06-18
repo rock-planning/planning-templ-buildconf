@@ -2,7 +2,11 @@
 # in the package sets. Below is an example to change the branch name for a given
 # package
 #
-# overrides:
-#   - rtt
-#     branch: test
-#  
+overrides:
+  - planning/templ:
+    branch: testing
+  - knowledge_reasoning/moreorg:
+    type: git
+    github: rock-knowledge-reasoning/knowledge-reasoning-moreorg
+    branch: master
+ 
