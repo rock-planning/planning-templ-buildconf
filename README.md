@@ -1,3 +1,24 @@
+# Installation of the development environment for TemPl
+
+In order to use this buildconf do the following:
+
+```
+mkdir templ-dev/
+cd templ-dev
+wget https://www.rock-robotics.org/autoproj_bootstrap
+ruby autoproj_bootstrap git git@git.hb.dfki.de:roehr/buildconf-templ.git
+source env.sh
+autoproj update
+autoproj envsh
+```
+
+Use everywhere the default except for the Rock Debian release: where you select master-20.06
+
+```
+source env.sh
+amake planning/templ
+```
+
 # Configuration of your autoproj build
 
 ## CMake
@@ -53,6 +74,6 @@ that defines the whole build. The manifest file
   Ruby script that contains customization code that will get executed before
   autoproj is loaded.
 
-### overrides.rb: 
+### overrides.rb:
   Ruby script that contains customization code that will get executed after
   autoproj is loaded, but before the build starts.
