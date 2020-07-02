@@ -8,5 +8,5 @@ overrides:
   - knowledge_reasoning/moreorg:
     type: git
     github: rock-knowledge-reasoning/knowledge-reasoning-moreorg
-    branch: master
+    branch: disable_redundancy_optimization
  
