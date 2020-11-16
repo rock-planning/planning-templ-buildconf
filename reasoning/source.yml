@@ -1,7 +1,0 @@
-name: reasoning
-
-version_control:
-    - knowledge_reasoning/moreorg:
-      type: git
-      github: rock-knowledge-reasoning/knowledge-reasoning-moreorg
-      branch: $ROCK_BRANCH
