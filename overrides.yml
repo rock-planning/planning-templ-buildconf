@@ -5,8 +5,3 @@
 overrides:
   - planning/templ:
     branch: testing
-  - knowledge_reasoning/moreorg:
-    type: git
-    github: rock-knowledge-reasoning/knowledge-reasoning-moreorg
-    branch: disable_redundancy_optimization
- 
