@@ -5,5 +5,5 @@ import:
 
 version_control:
     - planning/.*:
-      github: 2maz/$PACKAGE_BASENAME
-      branch: master
+      github: rock-planning/planning-$PACKAGE_BASENAME
+      branch: main
