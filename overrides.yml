@@ -5,3 +5,5 @@
 overrides:
   - planning/templ:
     branch: testing
+  - tools/graph_analysis:
+    branch: feature/qt5

@@ -3,10 +3,11 @@
 
 package_sets:
    - templ
-   - github: rock-core/rock-package_set
-   - rock-osdeps:
-     type: git
-     url: https://github.com/rock-core/rock-osdeps-package_set
+   - github: pierrewillenbrockdfki/rock_core_package_set
+     branch: feature/qt5
+   - github: pierrewillenbrockdfki/rock_core_rock_package_set
+     branch: feature/qt5
+   - github: rock-core/rock-osdeps-package_set
      branch: test
 
 layout:
