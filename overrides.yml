@@ -8,4 +8,4 @@ overrides:
   - tools/graph_analysis:
     branch: feature/qt5
   - gui/osg_qt5:
-    branch: feature_qt5_fix_version_check
+    branch: feature/qt5
