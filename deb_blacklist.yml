@@ -1,6 +1,1 @@
 ---
-# render most packages to be used from source, but this
-# one containes rock_find_qt5
-- base/cmake
-- knowledge_reasoning/owlapi
-- tools/graph_analysis
